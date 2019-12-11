@@ -1,0 +1,172 @@
+.first{
+    color: #fff; 
+    background-color: #f06292; 
+    min-height: 100px; 
+    padding: 65px;
+}
+.title{
+  padding-top: 25px;
+}
+h1{
+    font-size: 3rem;
+}
+.lead{
+    font-size: 1.8rem;
+}
+.second{
+color: #1a1a1a; background-color: #eee; min-height: 300px; padding: 24px;
+
+}
+.nav{
+max-width: 200px;
+}
+
+.end{
+    color: #fff; background-color: #1a1a1a; padding: 100px;
+}
+
+/* header */
+
+.logo{
+    
+    height:100px;
+}
+/* sticky footer */
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .Site-content {
+    flex: 1;
+  }
+
+  /* copy right */
+  footer {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background-color: #333333;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+}
+
+/* Gallery menu */
+
+ul#menu li {
+    display:inline;
+  }
+
+/* products page side bar */
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 50px;
+  padding: 1px 16px;
+  height: auto;
+
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+/* content side of the product page */
+.img-size{
+width: 200px;
+height:200px;
+border: 1px solid lightgray;
+}
+
+
+#div1,#div2,#div3,#div4{
+    display:none;
+}
+
+.wishlist{
+  padding-top: 30px;
+  text-align:right;
+}
+#demo{
+  text-align:right; 
+}
+.demo{
+  text-align:right; 
+}
+/* order form page */
+
+.form-border{
+background-color: lightgray;
+margin-top:100px;
+margin-right:100px;
+margin-left:100px;
+padding-bottom: 100px;
+text-align:center;
+border: 1px solid gray;
+}
+
+#result{
+    border: 1px solid gray;
+    margin-right:300px;
+    margin-left:300px;
+    text-align: center;
+}
+#result.col-md-3
+{
+  border: 1px solid gray;
+}
+
+.tbl{
+  text-align:center;
+}
+
+/*index page */
+.img-about{
+text-align:left;
+width: 400px;
+}
+
+
+

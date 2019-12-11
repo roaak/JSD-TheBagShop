@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Our Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The bag shop, the bag you need when you need it">
+  <meta name="keywords" content="JS,Final,project">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+   
+</head>
+<body class="Site">
+  <header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+     <img class="logo"  src="img/logi-new.jpg" alt="website logo">
+     
+    </div>
+    <div class="col-md-8">
+      <h1> The Bag shop</h1>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+   
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Products.html">Our Products</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="OrderForm.html">Order form</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="Gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Contact.html">Contact Us</a>
+    </li>
+  </ul>
+</nav>
+ </header>
+
+<main class="Site-content">
+<div class="container-fluid">
+ <div class="form-border">
+<h2>The Order Form</h2>
+<p>Select the items you want to order from the following lists:</p>
+
+<form>
+<label for="name">Item Name</label>
+ <input type="text" name="name" id="item_name">
+  <br>
+  <label for="itemType">Item Type</label>
+    <select name="itemType" id="item_type">
+     <option value="blank"></option>
+    <option value="Hand Bag">Hand Bag</option>
+    <option value="Backpack">Backpack</option>
+    <option value="Travel Bag">Travel Bag</option>
+  </select>
+<br>
+<label for="Quentity">Quentity</label>
+  <select name="Quentity" id="item_quentity">
+  <option value="blank"></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+<br>
+
+  <input id="submitform" type="submit">
+</form>
+<!--
+<div id="result" class="row">
+<p>Your order:</p>
+<br>
+<div id="result1" class="col-md-3">
+
+</div>
+<div id="result2" class="col-md-3">
+
+</div>
+<div id="result3" class="col-md-3">
+
+</div>
+<div id="" class="col-md-3">
+
+</div>
+</div> -->
+<br>
+<div class="container">
+<p>Your Order: </p>
+<div class="text-center">
+<table align="center" id="tbl" border="1">
+        <tr>
+            <td>Name</td>
+            <td>Type</td>
+            <td>Quintity</td>
+        </tr>
+       
+    </table>
+    </div>
+    <div id="result">
+    </div>
+<!--<ul id="result">
+
+</ul>-->
+</div>
+<button class="btn-info">Send</button>
+</div>
+
+</div>
+</div>
+
+</main>
+
+
+
+  <footer>
+       <p class="copyright">All rights recieved The bag shop 2019 © made by Roaa Kordi</p>
+  
+  </footer>
+  <!---
+<script type="text/javascript">
+
+       
+        var table = document.getElementById("tbl");
+ 
+        for (var i = 0 ; i < table.rows.length; i++) {
+ 
+            var row = "";
+ 
+            for (var j = 0; j < table.rows[i].cells.length; j++) {
+ 
+                row += table.rows[i].cells[j].innerHTML;
+                row += " | ";
+            }
+ 
+            console.log(row);
+        }
+        
+    </script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="js/order.js"></script>
+
+    
+   
+</body>
+
+</html>

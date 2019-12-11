@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Our Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The bag shop, the bag you need when you need it">
+  <meta name="keywords" content="JS,Final,project">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="Site">
+  <header>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+     <img class="logo"  src="img/logi-new.jpg" alt="website logo">
+     
+    </div>
+    <div class="col-md-4 title">
+      <h1> The Bag shop</h1>
+    </div>
+
+     <div class="col-md-4 demo">
+      <h4 class="wishlist"> <small>Your have <span id="number">0 </span> items in your wishlist</small></h4>
+      <p id="demo">  </p>
+      <input type="button" id="button2" value="DisplayList" onclick="display_array();"></input>
+      <div id="Result"></div> 
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+   
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="Products.html">Our Products</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="OrderForm.html">Order form</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="Gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Contact.html">Contact Us</a>
+    </li>
+  </ul>
+</nav>
+ </header>
+ <main class="Site-content">
+<div class="container-fluid">
+<div class="alert-success text-center" id="messagebox">
+
+</div>
+
+  <h3>Our collections</h3>
+  <p> We have a variety and wide range of best quality and luxery brands, now you can reach all in one place, our website.</p>
+</div>
+
+<div class="row">
+<div class="col-md-2">
+<div class="sidebar">
+  <a href="#" onclick="show('div0');">Recent Offers</a>
+  <a href="#" onclick="show('div1');">hand bag</a>
+  <a href="#" onclick="show('div2');">travel bags</a>
+  <a href="#" onclick="show('div3');">Jewelary bag</a>
+  <a href="#" onclick="show('div4');">purse</a>
+</div>
+
+</div>
+
+<div class="col-md-10">
+<div class="content">
+
+<div id="div0">
+  <h2>Recent Offers</h2>
+  
+  <div class="row">
+  <div class="col-sm-12">
+   <h4> No offers for the current time.</h4>
+  </div>
+  
+</div>
+</div>
+<div id="div1">
+  <h2>hand bags</h2>
+  
+  <div class="row">
+  <div class="col-sm-3"><img class="img-size" src="img/bags.jpg" alt="">
+    <p id="item">Pink hand bag</br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button></div>
+  <div class="col-sm-3"><img class="img-size" src="img/black-bag.jpg" alt="">
+    <p id="item">Black hand bag </br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button></div>
+  <div class="col-sm-3"><img class="img-size" src="img/camel-bag_600.jpeg" alt="">
+   <p id="item">Camel hand bag <br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button>
+  </div>
+  <div class="col-sm-3"><img class="img-size" src="img/GC.jpg" alt="">
+    <p id="item">Gochi hand bag<br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button></div>
+</div>
+</div>
+
+<div id="div2">
+  <h2>Travel Bags</h2>
+  
+  <div class="row">
+  <div class="col-sm-3"><img class="img-size" src="img/travel/case.jpg" alt="">
+    <p>Travel case </br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button></div>
+  <div class="col-sm-3"><img class="img-size" src="img/travel/leather-travel.jpg" alt="">
+    <p>Camel Trolley bag</br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button></div>
+  <div class="col-sm-3"><img class="img-size" src="img/travel/Samsonite_Pro-16.4_Inch_Black.jpg" alt="">
+    <p> Black Trolley bag</br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button></div>
+  <div class="col-sm-3"></div>
+</div>
+</div>
+
+<div id="div3">
+  <h2>Jewellery bags</h2>
+  
+  <div class="row">
+  <div class="col-sm-3"><img class="img-size" src="img/Jewellery/jewelary1.jpg" alt="">
+  <p id="item">Brown Jewellery case </br>
+  <small>SR 100</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button></div>
+  <div class="col-sm-3"><img class="img-size" src="img/Jewellery/jewelary2.jpg" alt="">
+   <p id="item">Black Jewellery case </br>
+  <small>SR 100</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button></div>
+  <div class="col-sm-3"><img class="img-size" src="img/Jewellery/small-black-jewellery-case.jpeg" alt="">
+   <p id="item"> Black Jewellery case #2 </br>
+  <small>SR 100</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button></div>
+  <div class="col-sm-3"></div>
+</div>
+</div>
+
+<div id="div4">
+  <h2>Purses</h2>
+  
+  <div class="row">
+  <div class="col-sm-3">
+  <img class="img-size" src="img/Purses/blue-purse.jpeg" alt="">
+   <p></br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button>
+  </div>
+  <div class="col-sm-3">
+  <img class="img-size" src="img/Purses/black-purse.jpeg" alt="">
+   <p> </br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button>
+  </div>
+  <div class="col-sm-3">
+  <img class="img-size" src="img/Purses/gold-purse.jpeg" alt="">
+   <p> </br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button>
+  </div>
+  <div class="col-sm-3">
+  <img class="img-size" src="img/Purses/generic-wallet.jpg" alt="">
+   <p>Generic Wallet </br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button>
+  </div>
+</div>
+
+ <div class="row">
+  <div class="col-sm-3">
+  <img class="img-size" src="img/Purses/coin-purse.jpg" alt="">
+   <p> Coin purse</br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button>
+  </div>
+  <div class="col-sm-3">
+  <img class="img-size" src="img/Purses/leather-wallet.jpg" alt="">
+   <p> Short Wallet</br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button>
+  </div>
+  <div class="col-sm-3">
+  <img class="img-size" src="img/Purses/short-wallet.jpeg" alt="">
+   <p> </br>
+  <small>SR 150</small></p>
+  <button class="addButton" onclick="add_element_to_array();">Add to wishlist</button>
+  </div>
+  <div class="col-sm-3">
+  
+  </div>
+</div>
+
+<br>
+<br>
+
+</div>
+
+</div>
+</div>
+
+</div>
+</main>
+
+  <footer>
+    <p class="copyright">All rights recieved The bag shop 2019 © made by Roaa Kordi</p>
+  
+  </footer>
+  <script src="js/wishlist.js"></script>
+<script src="js/sidebar.js"></script>
+
+</script>
+
+</body>
+
+</html>
