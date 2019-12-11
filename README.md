@@ -8,7 +8,7 @@ This is the final project for the Javascript development part-time course at Gen
 
 * ##### About the Bag Shop
 
-* ##### The wireframes
+* ##### Wireframes
 
 * ##### Used Techniques
 
@@ -31,7 +31,11 @@ the wireframe section displays the main pages in the website in a good way.
 https://roaak.github.io/JSD-TheBagShop/
 
 
-### The wireframes:
+### Wireframes:
+
+![](img/logi-new.jpg)
+
+
 
 * The logo
 
@@ -40,11 +44,19 @@ https://roaak.github.io/JSD-TheBagShop/
 
 * The Home Page:
 
+![](wireframes-jsProject/Home%20Page.png)
 * The products Page:
 
+![](wireframes-jsProject/Gallery.png)
+
 * The order form Page:
+![](wireframes-jsProject/The%20Oder%20Form.png)
+
+* The oder form after adding the product
+![](wireframes-jsProject/The%20Oder%20Form%20–%20after%20adding%20item.png)
 
 * The photo Gallery Page:
+![](wireframes-jsProject/Home%20Page%20–%201.png)
 
 
 
