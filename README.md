@@ -26,6 +26,11 @@ I decided to go for an e-commerce sample website since I am a UX/UI front end de
 as a catalogue and also a page to order a product.
 the wireframe section displays the main pages in the website in a good way. 
 
+
+### Website URL
+https://roaak.github.io/JSD-TheBagShop/
+
+
 ### The wireframes:
 
 * The logo
