@@ -85,9 +85,11 @@ https://www.flickr.com/services/api/
 
 As a beginner to Javascript i took somoe time in the following functions, yet i have achived most of it.
 
-1- how to manipulate and display array data in html.
-2-how to reach specific element in html and display or take data.
-2- how to control api json data.
+1- How to manipulate and display array data in html.
+
+2- How to reach specific element in html and display or take data.
+
+3- How to control api json data.
 
 
 ### Next Steps
